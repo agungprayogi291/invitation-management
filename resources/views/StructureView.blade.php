@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Xtreme Admin Template - The Ultimate Multipurpose admin template</title>
+    <title>@yield('title')</title>
     <!-- Custom CSS -->
     <link href="{{asset('BackEnd/assets/libs/chartist/dist/chartist.min.css')}}" rel="stylesheet">
     <!-- Custom CSS -->

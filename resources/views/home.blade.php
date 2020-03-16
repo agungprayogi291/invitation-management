@@ -1,7 +1,7 @@
 @extends('StructureView')
 
-@section('title','Home Management')
-@section('page-title',  'Home Management')
+@section('title','Dashboard')
+@section('page-title',  'Dashboard')
 
 @section('page-wrap')
 <div class="col-5">
