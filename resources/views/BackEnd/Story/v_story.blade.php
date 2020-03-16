@@ -4,12 +4,12 @@
 @section('title','Manage Story')
 @section('page-title', 'Story')
 @section('content')
-<div class="col-xl-12">
+<div class="col-lg">
     <div class="card  shadow">   
         <div class="card-body">
           <div class="row">
             <div class="col d-flex justify-content-center mt-2">
-              <h1>Manage Story</h1>
+              <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Manage Story</h1>
             </div>
           </div>
             <div class="row">
@@ -87,9 +87,9 @@
                             <center><h3></h3></center>
                         </div>
                         <div class="box-body">
-                          <img class="img-responsive pad" src="" alt="Photo">
+                          <img class="img-responsive pad mt-2 mb-3" src="{{asset('BackEnd/assets/img/gallery/gallery-1-600x400.jpg')}}" style="width: 150px;" alt="Photo">
             
-                              <form role="form" action="" method="post" enctype="multipart/form-data">
+                              <form role="form" action="" class="mt-4" method="post" enctype="multipart/form-data">
                               
                               <div class="box-body">
                                   <div class="form-group">
@@ -127,9 +127,9 @@
                             <center><h3></h3></center>
                         </div>
                         <div class="box-body">
-                          <img class="img-responsive pad" src="" alt="Photo">
+                          <img class="img-responsive pad mt-2 mb-3" src="{{asset('BackEnd/assets/img/gallery/gallery-1-600x400.jpg')}}" style="width: 150px;" alt="Photo">
             
-                              <form role="form" action="" method="post" enctype="multipart/form-data">
+                              <form role="form" action="" method="post"  class="mt-4" enctype="multipart/form-data">
                               
                               <div class="box-body">
                                   <div class="form-group">
@@ -167,9 +167,9 @@
                             <center><h3></h3></center>
                         </div>
                         <div class="box-body">
-                          <img class="img-responsive pad" src="" alt="Photo">
+                          <img class="img-responsive pad mt-2 mb-3" src="{{asset('BackEnd/assets/img/gallery/gallery-1-600x400.jpg')}}" alt="Photo"style="width: 150px;">
             
-                              <form role="form" action="" method="post" enctype="multipart/form-data">
+                              <form role="form" action="" method="post"  class="mt-4" enctype="multipart/form-data">
                               
                               <div class="box-body">
                                   <div class="form-group">

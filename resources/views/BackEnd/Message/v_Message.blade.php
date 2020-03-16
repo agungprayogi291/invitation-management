@@ -4,13 +4,27 @@
 @section('title','Message')
 @section('page-title', 'Greeting Message')
 
+@section('page-wrap')
+<div class="col-5">
+  <h4 class="page-title">Message</h4>
+  <div class="d-flex align-items-center">
+      <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Message</li>
+          </ol>
+      </nav>
+  </div>
+</div>
+@endsection
+
 @section('content')
-<div class="col-xl-12">
+<div class="col-lg">
     <div class="card  shadow">   
         <div class="card-body">
           <div class="row">
             <div class="col d-flex justify-content-center mt-2">
-              <h1>greeting message</h1>
+              <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">greeting message</h1>
             </div>
           </div>
 

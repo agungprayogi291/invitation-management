@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
 // banner
 Route::get('/Banner', 'BannerController@index');
 
@@ -23,6 +26,9 @@ Route::get('/Banner', 'BannerController@index');
 
 // About
 Route::get('/About', 'AboutController@index');
+
+
+
 
 
 
@@ -39,12 +45,22 @@ Route::get('/Story','StoryController@index');
 
 
 
+
+
 // Gallery
 Route::get('/Gallery', 'GalleryController@index');
 
 
+
+
+
 // Pesan
 Route::get('/Message', 'MessageController@index');
+
+
+
+
+
 
 Auth::routes();
 

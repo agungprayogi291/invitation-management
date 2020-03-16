@@ -3,14 +3,26 @@
 
 @section('title','Manage Event')
 @section('page-title', 'Event')
-
+@section('page-wrap')
+<div class="col-5">
+  <h4 class="page-title">Acara</h4>
+  <div class="d-flex align-items-center">
+      <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Acara</li>
+          </ol>
+      </nav>
+  </div>
+</div>
+@endsection
 @section('content')
-<div class="col-xl-12">
+<div class="col-lg">
     <div class="card  shadow">   
         <div class="card-body">
           <div class="row">
             <div class="col d-flex justify-content-center mt-2">
-              <h1>Manage Acara</h1>
+              <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Manage Acara</h1>
             </div>
           </div>
             <form action="" method="post">
@@ -75,14 +87,14 @@
                             <div class="box-body">
                                 <div class="form-group">
                                   <center><label for="exampleInputEmail1">Nama Acara</label></center>
-                                  <input type="text" name="namaa" value="" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                  <input type="text" name="namaa" value="" class="form-control" id="exampleInputEmail1" placeholder="">
                                 </div>
                 
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
                                           <center><label for="exampleInputEmail1">Jam Mulai</label></center>
-                                          <input type="time" name="jam11" value="" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                          <input type="time" name="jam11" value="" class="form-control" id="exampleInputEmail1" placeholder="">
                                         </div>
                                         <div class="form-group">
                                           <center><label for="exampleInputEmail1">Jam Akhir</label></center>
@@ -109,16 +121,13 @@
                 
                 <div class="row">
                     <div class="box">
-                        <div class="box-body">
-                            
-                        </div>
                         <div class="box-footer">
                             <button type="submit" class="btn btn-block btn-info pull-right">Update</button>
                         </div>
                     </div>
                 </div>
                 </form>
-        </div>
+          </div>
      </div>
 </div>
 @endsection

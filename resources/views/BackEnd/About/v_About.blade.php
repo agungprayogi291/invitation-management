@@ -2,12 +2,12 @@
 @section('page-title', 'Tentang Kita')
 @section('title','Manage Tentang Kita')
 @section('content')
-<div class="col-xl-12">
+<div class="col-lg-8">
     <div class="card shadow">   
    <div class="card-body">
      <div class="row">
        <div class="col d-flex justify-content-center mt-2">
-         <h1>Manage Tentang Kita</h1>
+         <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Manage Tentang Kita</h1>
        </div>
      </div>
      <div class="box">
@@ -35,7 +35,7 @@
 
                  <div class="col-md-6">
                    <center>
-                     <img style="width: 150px;" class="img-responsive pad" src="" alt="Photo">
+                     <img style="width: 150px;" class="img-responsive pad" src="{{asset('BackEnd/assets/img/gallery/gallery-1-600x400.jpg')}}" alt="Photo">
                    </center>
 
                    <div class="form-group">
@@ -59,7 +59,7 @@
 
                  <div class="col-md-6">
                    <center>
-                     <img style="width: 150px;" class="img-responsive pad" src="" alt="Photo">
+                     <img style="width: 150px;" class="img-responsive pad" src="{{asset('BackEnd/assets/img/gallery/gallery-1-600x400.jpg')}}" alt="Photo">
                    </center>
 
                    <div class="form-group">

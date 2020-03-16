@@ -89,7 +89,7 @@
   <script src="{{asset('BackEnd/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js')}}"></script>
   <script src="{{asset('BackEnd/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js')}}"></script>
   <!-- Argon JS -->
-  <script src="{{asset('BackEnd/}assets/js/argon.js?v=1.2.0')}"></script>
+  <script src="{{asset('BackEnd/assets/js/argon.js')}}"></script>
 </body>
 
 </html>
